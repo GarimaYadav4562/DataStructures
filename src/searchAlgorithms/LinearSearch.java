@@ -1,6 +1,16 @@
 package searchAlgorithms;
 
 
+
+/* LINEAR SEARCH ALGORITHM:
+ * This is the simplest algorithm to searcg an element in a given array. We simply traverse the array across length
+ * and compare the array element with the required element. If the element matches, we return the index of the array element
+ * otherwise we continue the search until the end of the array and return -1 if the element is not found.
+ * 
+ * Time complexity : O(n)
+ */
+
+
 //Given an array arr[] of n elements, write a function to search a given element x in arr[].
 
 public class LinearSearch {
